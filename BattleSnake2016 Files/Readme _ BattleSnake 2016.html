@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://www.battlesnake.io/readme#2-preparing -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8"><script type="text/javascript" src="./Readme _ BattleSnake 2016_files/e0fd43013a"></script><script src="./Readme _ BattleSnake 2016_files/nr-852.min.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"licenseKey":"e0fd43013a","transactionName":"M1BUMEZVDBVZUUVcVwoacBFaVxYPV1weWVEGG0QLQUAHFRZCUFJdFw9EAVVQDwM=","errorBeacon":"bam.nr-data.net","applicationTime":972,"queueTime":14,"beacon":"bam.nr-data.net","agent":"","applicationID":"13080109"}</script>
+  <title>Readme | BattleSnake 2016</title>
+  <meta name="description" content="BattleSnake is a multiplayer version of the classic arcade game “Snake”. Participants form teams to create AIs that receive and respond to requests from the game server.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+<!-- Open Graph -->
+<meta property="og:title" content="BattleSnake - February 20, 2016">
+<meta property="og:url" content="http://www.battlesnake.io">
+<meta property="og:image" content="http://www.battlesnake.io/static/img/og-image.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="314">
+
+<link rel="icon" type="image/png" href="http://www.battlesnake.io/static/img/favicon.png">
+
+<link rel="stylesheet" href="./Readme _ BattleSnake 2016_files/bootstrap.min.css">
+<link rel="stylesheet" href="./Readme _ BattleSnake 2016_files/font-awesome.min.css">
+<link rel="stylesheet" href="./Readme _ BattleSnake 2016_files/app.css">
+  <link rel="stylesheet" href="./Readme _ BattleSnake 2016_files/markdown.css">
+  <link rel="stylesheet" href="./Readme _ BattleSnake 2016_files/pygments.css">
+</head>
+
+<body class="markdown-body">
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <h1>BattleSnake Documentation</h1>
+        <p>
+          <a href="http://www.battlesnake.io/www.battlesnake.io">BattleSnake</a>
+          is presented by
+          <a href="https://www.sendwithus.com/">Sendwithus</a>
+          and powered by
+          <a href="https://www.heroku.com/">Heroku</a>.
+        </p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="0-intro">
+  <div class="row">
+    <div class="col-md-9">
+      <h3>What is BattleSnake?</h3>
+<p>Battlesnake is a programming competition held in Victoria BC.</p>
+<p>Teams from local schools and tech companies build AIs to play the classic arcade game "Snake"
+and then compete in a tournament against other teams. The last snakes standing wins huge prizes.</p>
+<p>For more event details or to register a team visit <a href="http://www.battlesnake.io/">www.battlesnake.io</a>.</p>
+<h3>Have questions? Need help?</h3>
+<p>Email <a href="mailto:battlesnake@sendwithus.com">battlesnake@sendwithus.com</a> or
+tweet <a href="http://twitter.com/send_with_us">@send_with_us</a>.</p>
+<p>On the day of the event, visit the registration desk or find any BattleSnake volunteer to get help or answer questions.</p>
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="http://www.battlesnake.io/readme#1-location">Location and Schedule</a></li>
+<li><a href="http://www.battlesnake.io/readme#2-preparing">Coming Prepared</a></li>
+<li><a href="http://www.battlesnake.io/readme#3-tournament">Tournament</a></li>
+<li><a href="http://www.battlesnake.io/readme#4-bounty">Bounty Snakes</a></li>
+<li><a href="http://www.battlesnake.io/readme#5-prizes">Prizes and Awards</a></li>
+<li><a href="http://www.battlesnake.io/readme#6-rules">Game Rules</a></li>
+<li><a href="http://www.battlesnake.io/readme#7-advanced">Advanced Game Rules</a></li>
+<li><a href="http://www.battlesnake.io/readme#8-starting">Getting Started</a></li>
+<li><a href="http://www.battlesnake.io/readme#9-api">Snake AI Documentation</a></li>
+<li><a href="http://www.battlesnake.io/readme#10-testing">Testing Your Snake AI</a></li>
+</ul>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="1-location">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Location and Schedule</h2>
+<h3>When</h3>
+<p>February 20th, 11:00 AM - 7:30 PM</p>
+<h3>Where</h3>
+<p>University of Victoria, 1st Floor ECS <a href="https://www.google.ca/maps/place/ECS+Building/@48.461031,-123.311752,18.8z/data=!4m2!3m1!1s0x548f7156497a7713:0x3b35f72ebd573b6f">[View Map]</a></p>
+<h3>Schedule</h3>
+<p><strong>10:00 AM - Developer Tutorial (Optional)</strong> <br>
+A brief introduction to BattleSnake and deploying to Heroku. Tutorial attendees are expected to <a href="http://www.battlesnake.io/readme#2-preparing">come prepared</a>.</p>
+<p><strong>11:00 AM - Team Registration</strong> <br>
+Visit the registration booth in the ECS Lobby to register your team for the event. Teams must choose a tournament division at this time.</p>
+<p><strong>11:30 AM - Orientation</strong> <br>
+Everything you need to know will be discussed during Orientation. We'll also be announcing game rules and releasing API documentation at this time.</p>
+<p><em>IMPORTANT: ALL TEAMS AND TEAM MEMBERS MUST ATTEND ORIENTATION</em></p>
+<p><strong>12:00 PM - Coding Begins</strong> <br>
+Teams begin building and testing their Snake AIs.</p>
+<p><strong>6:00 PM - Tournament Group Stages Begin</strong> <br>
+Tournament schedule and divisions will be announced during the BattleSnake event.</p>
+<p><strong>7:30 PM - Prizes and Awards</strong> <br>
+Prize draws, Bounty Snake awards, and tournament prizes will be handed out.</p>
+<p><strong>After Party</strong> <br>
+<em>After the event, sponsors and event organizers will meet at Felicita's for drinks. Everyone is invited!</em></p>
+<h3>Wifi</h3>
+<p>Network: <code>UVic</code> <br>
+Username: <code>bsnake</code> <br>
+Password: <code>l3tm31n</code></p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="2-preparing">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Coming Prepared</h2>
+<p><strong>Your team will be writing code. Teams must come prepared to do so.</strong></p>
+<p>All team members should have basic computer programming skills and come prepared with the following:</p>
+<ul>
+<li>Laptop with a functioning development environment, including:<ul>
+<li>Git Command Line</li>
+<li>Heroku Command Line</li>
+<li>Programming language of choice (we suggest Python, NodeJS, or Ruby)</li>
+<li>Text Editor (Sublime Text, Atom, Vim, etc)</li>
+</ul>
+</li>
+<li>GitHub Account (free)</li>
+<li>Heroku Account (free)</li>
+</ul>
+<h3>Learning Heroku</h3>
+<p>We strongly recommend familiarizing yourself with Heroku before the event. Using Heroku to power your snake is not required but is highly recommended in order to maximize time spent developing your AI.</p>
+<p>All provided code samples and example AIs will be deployable to Heroku as is.</p>
+<p>Suggested Readings:</p>
+<ul>
+<li><a href="https://devcenter.heroku.com/start">Getting Started on Heroku</a></li>
+<li><a href="https://toolbelt.heroku.com/">Heroku Toolbelt</a></li>
+<li><a href="https://devcenter.heroku.com/articles/git">Deploying to Heroku with Git</a></li>
+<li><a href="https://devcenter.heroku.com/articles/github-integration">Deploying to Heroku from Github</a></li>
+</ul>
+<h3>Team Registration</h3>
+<p>BattleSnake is a team competition and we recommended teams of 2-5. You are welcome to register and compete as an individual, although we don't recommend it.</p>
+<p>Team registration will open at 11:00 am in ECS Lobby. To register, you'll need a team name and the email address of a primary contact.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="3-tournament">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Tournament</h2>
+<p>This year's tournament will be split into two divisions: Classic and Advanced.</p>
+<p>The <em>Classic Division</em> will feature familiar snake gameplay mechanics and is ideal for first time attendees and/or novice programmers.</p>
+<p>The <em>Advanced Division</em> will introduce new challenging gameplay mechanics and even greater prizes, ideal for BattleSnake veterans and teams wanting to compete against the best.</p>
+<p>Teams may decide which division they wish to enter during registration.</p>
+<h4>Tournament Format</h4>
+<p>Each tournament will consist of a group stage, semi-finals, and finals. Groups will be assigned randomly and the winning snake will move on to the next round.</p>
+<p>Tournament games may include up to 12 snakes, and will be played on a 17x17 board.</p>
+<p>Tournament format and group assignments will be announced at 5pm. The tournament itself will start at 6pm. All tournament games will be live casted on stage in ECS 123. Cheering and friendly shouting are strongly encouraged. Bring your friends!</p>
+<h4>Tournament Prizes</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Prize</th>
+            <th>Classic Division</th>
+            <th>Advanced Division</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Grand Prize</td>
+            <td>$300</td>
+            <td>$1,000</td>
+        </tr>
+        <tr>
+            <td>Second Place</td>
+            <td>$200</td>
+            <td>$600</td>
+        </tr>
+        <tr>
+            <td>Third Place</td>
+            <td>$100</td>
+            <td>$300</td>
+        </tr>
+    </tbody>
+</table>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="4-bounty">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Bounty Snakes</h2>
+<p>BattleSnake sponsors wanted to get more involved this year, so we've introduced Bounty Snakes.</p>
+<p>Bounty Snakes are snakes programmed by sponsors in advance of the tournament. Each Bounty Snake will have a bounty prize attached to it, along with specific criteria for defeating it. The first team to successfully defeat a Bounty Snake throughout the day will claim its bounty prize.</p>
+<p>Bounty Snakes will not go down easy, and we suggest not spending time focused on defeating Bounty Snakes.</p>
+<p>Available Bounty Snakes and their rewards will are listed below. Some Bounty Snakes may not appear until the day of the event.</p>
+<h4>Claiming a Bounty Prize</h4>
+<p>All bounty snakes must be defeated on a 17x17 square game board, no exceptions.</p>
+<p>If your team feels they have successfully defeated a Bounty Snake, immediately record the name of the game and inform a BattleSnake volunteer or the registration desk of your glorious achievement.</p>
+<p>The first team to claim verifiable victory over a Bounty Snake will receive its prize. Teams can defeat at most one Bounty Snake during the event.</p>
+<h4>Available Bounties</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Bounty Snake</th>
+            <th>Reward</th>
+            <th>Rules for Defeat</th>
+            <th>Winning Team</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                "Adder Lovelace" <br>
+                <em><a href="https://www.sendwithus.com/">Sendwithus</a></em>
+            </td>
+            <td>$500 Scholarship for team<br> <em>sponsored by Hello Ventures</em></td>
+            <td>Classic Mode, 1v1, 17x17</td>
+            <td><a href="http://www.battlesnake.io/app/games/delicate-semiconductor">Claimed by ); TRUNCATE TABLE snakes; -- at 2:41pm</a></td>
+        </tr>
+        <tr>
+            <td>
+                "Leanpub Bounty Snake" <br>
+                  <em><a href="https://leanpub.com/">Leanpub</a></em>
+            </td>       
+            <td><a href="http://www.battlesnake.io/leanpub.com/survivejs_webpack_react">Webpack And React</a> <br> <em>(50 winners)
+            </em></td><td>Classic Mode, 1v1, 17x17</td>
+            <td>30 coupons remaining</td>
+        </tr>
+        <tr>
+          <td>
+            "Leanpub Xbox Snake (live as of 4pm)" <br>
+            <em><a href="https://leanpub.com/">Leanpub</a></em>
+          </td>     
+          <td>Xbox One (used!) &amp; 2 games</td>
+          <td>Classic Mode, 1v1, 17x17</td>
+          <td><a href="http://www.battlesnake.io/app/games/dripping-storyteller">Claimed by The Mutaneers at 4:04pm</a></td>
+        </tr>
+        <tr>
+            <td>
+                "Murphy" <br>
+                <em><a href="http://www.workday.com/">Workday</a></em>
+            </td>
+            <td>Workday Patagonia Yerba Backpacks <br> <em>(up to five team members)</em></td>
+            <td>Classic Mode, 1v1, 17x17</td>
+            <td><a href="http://www.battlesnake.io/app/games/contentment-rapidity">Claimed by Shia LaBite 3:20pm</a></td>
+        </tr>
+        <tr>
+            <td>
+                "BeanSnake" <br>
+                <em><a href="http://www.beanstream.com/home/">Beanstream</a></em>
+            </td>
+            <td>$50 Steam Gift Card <br> <em>(up to five team members)</em></td>
+            <td>Classic Mode, 1v1, 17x17</td>
+            <td><a href="http://www.battlesnake.io/app/games/capricious-larceny">Claimed by snakesonabiplane at 1:06pm</a></td>
+        </tr>
+        <tr>
+            <td>
+                "Big Rouser &amp; Little Rouser" <br>
+                <em><a href="https://giftbit.com/">Giftbit</a></em>
+            </td>
+            <td>
+                1st - Dinner &amp; Drinks w/ Giftbit Engineering <br>
+                2nd - $20 Gift Card <em>(up to five)</em> <br>
+                3rd - Giftbit Moleskine Notebooks
+            </td>
+            <td>Classic Mode, 2v1 <br> (Gotta beat 'em both!), 17x17</td>
+            <td>
+                1st: <a href="http://www.battlesnake.io/app/games/urgent-estimation">Claimed by DareDevils at 5:01pm</a><br>
+                2nd: <a href="http://www.battlesnake.io/app/games/crazy-dexterity">Claimed by King Dodongo at 5:10pm</a><br>
+                3rd: <a href="http://www.battlesnake.io/app/games/linear-providence">Claimed by Wolf in Snakes Clothing at 5:17pm</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                "RBM Black Adder" <br>
+                <em><a href="http://redbrickmedia.com/">Red Brick Media</a></em>
+            </td>
+            <td>
+                $50 Gift Card for Peacocks, Ping Pong Paddle <br>
+                Red Brick Media T-Shirts <em>(up to five team members)</em>
+            </td>
+            <td>Classic Mode, 1v1, 17x17</td>
+            <td><a href="http://www.battlesnake.io/app/games/lofty-molasses">Claimed by ¡This is Snek! at 4:10pm</a></td>
+        </tr>
+        <tr>
+            <td>
+                "Son of Chicken Snake" <br>
+                <em><a href="https://www.pretio.in/">Pretio Interactive</a></em>
+            </td>
+            <td>
+                Pretio Swag Pack <em>(up to five)</em>
+            </td>
+            <td>Classic Mode, 1v1, 17x17</td>
+            <td><a href="http://www.battlesnake.io/app/games/lofty-womanhood">Claimed by PAnaconda at 4:42pm</a></td>
+        </tr>
+    </tbody>
+</table>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="5-prizes">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Door Prizes</h2>
+<p>This year we have over $1,500 in door prizes to give away! Door prizes include...</p>
+<ul>
+<li>Xbox One</li>
+<li>Arduino Starter Kits</li>
+<li>USB Battry Packs</li>
+<li>Raspberry Pi Kits</li>
+</ul>
+<p>Door prizes will be given away throughout the day and during the tournament.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="6-rules">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Classic Game Rules</h2>
+<h3>Objective</h3>
+<p>BattleSnake is an adaptation of the classic arcade game "Snake". Teams build web servers to control a snake as it moves around the game board interacting with food, walls, and other snakes.</p>
+<p>Each game may contain up to 12 snakes. The last snake alive wins the game.</p>
+<h3>Snakes will die if they...</h3>
+<ul>
+<li>reach 0 health and starve (see below)</li>
+<li>collide with the edges of the game board</li>
+<li>collide with their own body</li>
+<li>collide with another snake**</li>
+</ul>
+<p>**Head to head collisions result in the death of the shorter snake (or both if equal length).</p>
+<h3>Starvation</h3>
+<p>Snakes must eat regularly to survive. Each snake starts the game with 100 health and loses 1 health each turn of the game. If a snake reaches 0 health it will die of starvation.</p>
+<p>To avoid starving to death you must ensure that your snake is well fed.</p>
+<p>Food will spawn throughout the board during the game. If your snake collides with the food it will consume it. Consuming food will add 30 health to your snake (up to 100 maximum). In addition to avoiding starvation, your snake will grow longer for every piece of food eaten.</p>
+<p>Growing your snake can be helpful or make the game more challenging to win, depending on how your AI behaves.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="7-advanced">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Advanced Game Rules</h2>
+<p>Advanced games include all the rules and gameplay mechanics of Classic mode games (see above), with the addition of two new mechanics...</p>
+<h3>Extra Walls</h3>
+<p>Additional walls will spawn on the game board. Snakes will die if they collide with walls.</p>
+<p>Each wall will permanently occupy a 1x1 area on the game board. Walls will not spawn immediately in front of your snake, and will generally prefer open areas.</p>
+<p>Wall positions will be available in the API during Advanced games.</p>
+<h3>Gold Coins</h3>
+<p>Gold coins will spawn on the game board. The first snake to collect 5 gold coins will immediately win the game.</p>
+<p>Snakes can collect a gold coin by colliding with it. Coins will prefer to spawn near the middle of the board, and there will be never be more than one coin on the board at any given time.</p>
+<p>The position of any gold coins will be available in the API during Advanced games.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="8-starting">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Getting Started</h2>
+<p>Teams will be programming and deploying a web server that implements the <a href="http://www.battlesnake.io/readme#9-api">BattleSnake API</a>. Each team will provide a URL powered by your AIs web server.</p>
+<p>Before, during and after each game, the BattleSnake game servers will communicate with each participating snake using HTTP requests. How your server responds to these requests will determine how your snake plays the game.</p>
+<p>We strongly recommend that teams <a href="http://www.battlesnake.io/readme#preparing">use Heroku to deploy their snake</a> to a public URL (such as <a href="http://battlesnake.herokuapp.com/">battlesnake.herokuapp.com</a>). Using Heroku will ensure you spend the maximum time designing your AI.</p>
+<h3>Starter Snakes</h3>
+<p>To help teams get started quickly we've provided starter snakes for some common web languages. These starter snakes come preconfigured to deploy to Heroku; we suggesting forking them to start building your own snake.</p>
+<ul>
+<li><a href="http://github.com/sendwithus/battlesnake-go">Go</a></li>
+<li><a href="http://github.com/sendwithus/battlesnake-node">NodeJS</a></li>
+<li><a href="http://github.com/sendwithus/battlesnake-python">Python</a></li>
+<li><a href="http://github.com/sendwithus/battlesnake-ruby">Ruby</a></li>
+<li><a href="https://github.com/sendwithus/battlesnake-clojure">Clojure</a></li>
+<li><a href="http://github.com/sendwithus/battlesnake-legacy-java">Java (Deprecated)</a></li>
+</ul>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="9-api">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>BattleSnake API Documentation</h2>
+<p>The BattleSnake API uses JSON formatted HTTP requests and responses. Snakes must reply to each command:</p>
+<ul>
+<li>within one second</li>
+<li>with a 200 HTTP Status Code</li>
+<li>with a properly formatted JSON response</li>
+</ul>
+<p>Failure to meet any of these requirements may disqualify your snake from participating in a game.</p>
+<h4>Commands</h4>
+<p>The BattleSnake API consists of four commands:</p>
+<ul>
+<li>INFO</li>
+<li>START GAME</li>
+<li>MOVE</li>
+<li>END GAME</li>
+</ul>
+<hr>
+<h3>INFO <br> <em>GET /</em></h3>
+<p>Returns information about your snake.</p>
+<p>Visiting your snake URL in a browser should return this information, which is a good way to make sure your server is working as expected. This command may also be called by the BattleSnake game servers at any point during or outside a game.</p>
+<h4>Request Parameters</h4>
+<p>None</p>
+<h4>Response</h4>
+<ul>
+<li><strong>color</strong> - CSS color for your snake's body</li>
+<li><strong>head</strong> - Full URL to a 20x20 image for your snake's head</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="nt">"color"</span><span class="p">:</span> <span class="s2">"#FF0000"</span><span class="p">,</span>
+    <span class="nt">"head"</span><span class="p">:</span> <span class="s2">"http://www.clker.com/cliparts/D/i/A/w/J/R/snake-no-white-drule-hi.png"</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<hr>
+
+<h3>START GAME <br> <em>POST /start</em></h3>
+<p>Signals the start of a BattleSnake game.</p>
+<p>NOTE: Game IDs may be re-used throughout the day, however multiple games with the same ID will not be running at the same time. It's your snake's responsibility to clear any saved data for a previous game with the same game ID.</p>
+<h4>Request Parameters</h4>
+<ul>
+<li><strong>game</strong> - ID of game being played</li>
+<li><strong>mode</strong> - Game mode, either <em>"classic"</em> or <em>"advanced"</em></li>
+<li><strong>turn</strong> - Turn number for this move</li>
+<li><strong>height</strong> - Height of game board</li>
+<li><strong>width</strong> - Width of game board</li>
+<li><strong>snakes</strong> - List of snakes, including their status and position</li>
+<li><strong>food</strong> - List of coordinates of available food</li>
+<li><strong>walls</strong> - List of coordinates of extra walls (Advanced Only)</li>
+<li><strong>gold</strong> - Coordinates of available gold coins (Advanced Only)</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="nt">"game"</span><span class="p">:</span> <span class="s2">"hairy-cheese"</span><span class="p">,</span>
+    <span class="nt">"mode"</span><span class="p">:</span> <span class="s2">"advanced"</span><span class="p">,</span>
+    <span class="nt">"turn"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="nt">"height"</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+    <span class="nt">"width"</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="nt">"snakes"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="err">&lt;Snake</span> <span class="err">Object&gt;</span><span class="p">,</span> <span class="err">&lt;Snake</span> <span class="err">Object&gt;</span><span class="p">,</span> <span class="err">...</span>
+    <span class="p">],</span>
+    <span class="nt">"food"</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="nt">"walls"</span><span class="p">:</span> <span class="p">[],</span>  <span class="err">//</span> <span class="err">Advanced</span> <span class="err">Only</span>
+    <span class="nt">"gold"</span><span class="p">:</span> <span class="p">[]</span>    <span class="err">//</span> <span class="err">Advanced</span> <span class="err">Only</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h4>Response</h4>
+<ul>
+<li><strong>taunt</strong> - String message for other snakes</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="nt">"taunt"</span><span class="p">:</span> <span class="s2">"Let's rock!"</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<hr>
+<h3>MOVE <br> <em>POST /move</em></h3>
+<p>Request for your snake to move. This request is made to all snakes in a particular game simultaneously. Once all snakes have responded, moves are calculated and the game board will update.</p>
+<p>NOTE: Failing to properly respond to a MOVE command will forfeit your turn and your snake will move forward regardless of what lies ahead. Repeated failures may disqualify your snake from the game.</p>
+<h4>Request Parameters</h4>
+<ul>
+<li><strong>game</strong> - ID of game being played</li>
+<li><strong>mode</strong> - Game mode, either <em>"classic"</em> or <em>"advanced"</em></li>
+<li><strong>turn</strong> - Turn number for this move</li>
+<li><strong>height</strong> - Height of game board</li>
+<li><strong>width</strong> - Width of game board</li>
+<li><strong>snakes</strong> - List of snakes, including their status and position</li>
+<li><strong>food</strong> - List of coordinates of available food</li>
+<li><strong>walls</strong> - List of coordinates of extra walls (Advanced Only)</li>
+<li><strong>gold</strong> - Coordinates of available gold coins (Advanced Only)</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="nt">"game"</span><span class="p">:</span> <span class="s2">"hairy-cheese"</span><span class="p">,</span>
+    <span class="nt">"mode"</span><span class="p">:</span> <span class="s2">"advanced"</span><span class="p">,</span>
+    <span class="nt">"turn"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="nt">"height"</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+    <span class="nt">"width"</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="nt">"snakes"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="err">&lt;Snake</span> <span class="err">Object&gt;</span><span class="p">,</span> <span class="err">&lt;Snake</span> <span class="err">Object&gt;</span><span class="p">,</span> <span class="err">...</span>
+    <span class="p">],</span>
+    <span class="nt">"food"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="err">...</span>
+    <span class="p">],</span>
+    <span class="nt">"walls"</span><span class="p">:</span> <span class="p">[</span>    <span class="err">//</span> <span class="err">Advanced</span> <span class="err">Only</span>
+        <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+    <span class="p">],</span>
+    <span class="nt">"gold"</span><span class="p">:</span> <span class="p">[</span>     <span class="err">//</span> <span class="err">Advanced</span> <span class="err">Only</span>
+        <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h4>Response</h4>
+<ul>
+<li><strong>move</strong> - Direction of your next move, must be one of <em>["north", "south", "east", "west"]</em></li>
+<li><strong>taunt</strong> - String message for other snakes</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+   <span class="nt">"move"</span><span class="p">:</span> <span class="s2">"north"</span><span class="p">,</span>
+   <span class="nt">"taunt"</span><span class="p">:</span> <span class="s2">"To the north pole!!"</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<hr>
+<h3>END GAME <br> <em>POST /end</em></h3>
+<p>Signals the end of a specific game. After this request, future requests for this Game will not be made and the Game ID may be re-used.</p>
+<h4>Parameters</h4>
+<ul>
+<li><strong>game</strong> - ID of game being played</li>
+<li><strong>mode</strong> - Game mode, either <em>"classic"</em> or <em>"advanced"</em></li>
+<li><strong>turn</strong> - Turn number for this move</li>
+<li><strong>height</strong> - Height of game board</li>
+<li><strong>width</strong> - Width of game board</li>
+<li><strong>snakes</strong> - List of snakes, including their status and position</li>
+<li><strong>food</strong> - List of coordinates of available food</li>
+<li><strong>walls</strong> - List of coordinates of extra walls (Advanced Only)</li>
+<li><strong>gold</strong> - Coordinates of available gold coins (Advanced Only)</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="nt">"game"</span><span class="p">:</span> <span class="s2">"hairy-cheese"</span><span class="p">,</span>
+    <span class="nt">"mode"</span><span class="p">:</span> <span class="s2">"advanced"</span><span class="p">,</span>
+    <span class="nt">"turn"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="nt">"height"</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+    <span class="nt">"width"</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="nt">"snakes"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="err">&lt;Snake</span> <span class="err">Object&gt;</span><span class="p">,</span> <span class="err">&lt;Snake</span> <span class="err">Object&gt;</span><span class="p">,</span> <span class="err">...</span>
+    <span class="p">],</span>
+    <span class="nt">"food"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="err">...</span>
+    <span class="p">],</span>
+    <span class="nt">"walls"</span><span class="p">:</span> <span class="p">[</span>    <span class="err">//</span> <span class="err">Advanced</span> <span class="err">Only</span>
+        <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+    <span class="p">],</span>
+    <span class="nt">"gold"</span><span class="p">:</span> <span class="p">[</span>     <span class="err">//</span> <span class="err">Advanced</span> <span class="err">Only</span>
+        <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h4>Response</h4>
+<p>Ignored, game is over.</p>
+<div class="codehilite"><pre><span></span><span class="p">{}</span>
+</pre></div>
+
+
+<hr>
+<h3>Snake Objects</h3>
+<p>Snake objects have the following properties:</p>
+<ul>
+<li><strong>id</strong> - Snake ID. Use this value to find your snake <a href="http://www.battlesnake.io/team">(find your ID here)</a>.</li>
+<li><strong>name</strong> - Snake Name</li>
+<li><strong>status</strong> - Status, either <em>"alive"</em> or <em>"dead"</em></li>
+<li><strong>message</strong> - Friendly message describing this snakes last move</li>
+<li><strong>taunt</strong> - Snake's latest taunt</li>
+<li><strong>age</strong> - How many turns this snake has survived</li>
+<li><strong>health</strong> - Current snake health [0 - 100]</li>
+<li><strong>coords</strong> - List of [x, y] coordinates describing snake position, ordered from head to tail</li>
+<li><strong>kills</strong> - Number of snake deaths this snake is responsible for</li>
+<li><strong>food</strong> - Number of food eaten by this snake</li>
+<li><strong>gold</strong> - Number of gold coins acquired by this snake</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="nt">"id"</span><span class="p">:</span> <span class="s2">"1234-567890-123456-7890"</span><span class="p">,</span>
+    <span class="nt">"name"</span><span class="p">:</span> <span class="s2">"Well Documented Snake"</span><span class="p">,</span>
+    <span class="nt">"status"</span><span class="p">:</span> <span class="s2">"alive"</span><span class="p">,</span>
+    <span class="nt">"message"</span><span class="p">:</span> <span class="s2">"Moved north"</span><span class="p">,</span>
+    <span class="nt">"taunt"</span><span class="p">:</span> <span class="s2">"Let's rock!"</span><span class="p">,</span>
+    <span class="nt">"age"</span><span class="p">:</span> <span class="mi">56</span><span class="p">,</span>
+    <span class="nt">"health"</span><span class="p">:</span> <span class="mi">83</span><span class="p">,</span>
+    <span class="nt">"coords"</span><span class="p">:</span> <span class="p">[</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span> <span class="p">],</span>
+    <span class="nt">"kills"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="nt">"food"</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span>
+    <span class="nt">"gold"</span><span class="p">:</span> <span class="mi">2</span>
+<span class="p">}</span>
+</pre></div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="10-testing">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Testing Your Snake AI</h2>
+<p>There are two easy ways to test your snake.</p>
+<h3>Automated Snake Test</h3>
+<p>To make sure your snake server is working correctly, you can run a quick test by visiting <a href="http://www.battlesnake.io/test">www.battlesnake.io/test</a> while logged in to your team's account.</p>
+<p>The test page will create a fake game and send fake game commands to your snake, displaying the responses back to you. Use this page to verify that your snake server is running properly and responding in a manner the BattleSnake game servers can understand.</p>
+<p>Once your snake is responding correctly to all commands, you're ready to start programming your AI.</p>
+<h3>Running Exhibition Games</h3>
+<p>Throughout the day you can create and run your own games against whichever snakes you want. To create a game, visit <a href="http://www.battlesnake.io/app/game/new">create new game</a> page.</p>
+<p>You can select which snakes to include in the game (up to 12), what size game board to play, and what game mode to use (Classic or Advanced). You may only create games between your snake, bounty snakes, test snakes, and other teams who have made their snake public.</p>
+<p>If you wish to create practice games between your snake and other BattleSnake teams, all teams will need to make their snakes public first. You can change this setting on your <a href="http://www.battlesnake.io/team">team settings page</a>.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="11-outro">
+  <div class="row">
+    <div class="col-md-9">
+      <h2>Still have questions?</h2>
+<p>Email <a href="mailto:battlesnake@sendwithus.com">battlesnake@sendwithus.com</a> or
+tweet <a href="http://twitter.com/send_with_us">@send_with_us</a>.</p>
+<p><br><br><br></p>
+    </div>
+  </div>
+</div>
+
+
+</body></html>
